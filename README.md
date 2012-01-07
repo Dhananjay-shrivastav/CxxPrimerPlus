@@ -3,7 +3,7 @@
 This is my implementation of the exercises in the book 'C++ Primer Plus'.
 
 
-All source codes were developed using emacs and compiled by g++ 4.1.2 in CentOS(2.6.18-128.e15PAE).
+All source codes were developed using emacs and compiled by g++ 4.1.2 in CentOS (2.6.18-128.e15PAE).
 
 
 # Chapter 1 GETTING STARTED
@@ -12,7 +12,7 @@ All source codes were developed using emacs and compiled by g++ 4.1.2 in CentOS(
 NO Programming Exercises
 
 
-# Chapter 2 SETTING OUT TO C++  <2012-01-06, Fri>
+# Chapter 2 SETTING OUT TO C++  (2012-01-06, Fri)
 
 	1. Write a C++ program that displays your name and address.
 	2. Write a C++ program that asks for a distance in furlongs and converts it to yards. 
