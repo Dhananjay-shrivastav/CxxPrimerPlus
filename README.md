@@ -12,7 +12,7 @@ All source codes were developed using emacs and compiled by g++ 4.1.2 in CentOS(
 NO Programming Exercises
 
 
-# Chapter 2 SETTING OUT TO C++
+# Chapter 2 SETTING OUT TO C++  <2012-01-06, Fri>
 
 	1. Write a C++ program that displays your name and address.
 	2. Write a C++ program that asks for a distance in furlongs and converts it to yards. 
@@ -51,3 +51,47 @@ NO Programming Exercises
 		Enter the number of hours: 9
 		Enter the number of minutes: 28
 		Time: 9:28
+		
+# Chapter 3 DEALING WITH DATA	
+	
+	
+# Chapter 4 COMPOUND TYPES
+
+
+# Chapter 5 LOOPS AND RELATIONAL EXPRESSIONS
+
+
+# Chapter 6 BRANCHING STATEMENTS AND LOGICAL OPERATORS
+
+
+# Chapter 7 FUNCTIONS: C++¡¯S PROGRAMMING MODULES
+
+
+# Chapter 8 ADVENTURES IN FUNCTIONS
+
+
+# Chapter 9 MEMORY MODELS AND NAMESPACES
+
+
+# Chapter 10 OBJECTS AND CLASSES
+
+
+# Chapter 11 WORKING WITH CLASSES
+
+
+# Chapter 12 CLASSES AND DYNAMIC MEMORY ALLOCATION
+
+
+# Chapter 13 CLASS INHERITANCE
+
+
+# Chapter 14 REUSING CODE IN C++
+
+
+# Chapter 15 FRIENDS, EXCEPTIONS, AND MORE
+
+
+# Chapter 16 THE string CLASS AND THE STANDARD TEMPLATE LIBRARY
+
+
+# Chapter 17 INPUT, OUTPUT, AND FILES
