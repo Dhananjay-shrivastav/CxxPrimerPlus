@@ -106,29 +106,29 @@ NO Programming Exercises
 		Grade: C
 		Age: 22
 	Note that the program should be able to accept first names that comprise more than one
-	word. Also note that the program adjusts the grade downward〞that is, up one letter.
-	Assume that the user requests an A, a B, or a C so that you don＊t have to worry about the
+	word. Also note that the program adjusts the grade downward"that is, up one letter.
+	Assume that the user requests an A, a B, or a C so that you don"t have to worry about the
 	gap between a D and an F.
 	2. Rewrite Listing 4.4, using the C++ string class instead of char arrays.
 	3. Write a program that asks the user to enter his or her first name and then last name, and
-	that then constructs, stores, and displays a third string, consisting of the user＊s last name
+	that then constructs, stores, and displays a third string, consisting of the user"s last name
 	followed by a comma, a space, and first name. Use char arrays and functions from the
 	cstring header file. A sample run could look like this:
 		Enter your first name: Flip
 		Enter your last name: Fleming
-		Here＊s the information in a single string: Fleming, Flip
+		Here"s the information in a single string: Fleming, Flip
 	4. Write a program that asks the user to enter his or her first name and then last name, and
-	that then constructs, stores, and displays a third string consisting of the user＊s last name
+	that then constructs, stores, and displays a third string consisting of the user"s last name
 	followed by a comma, a space, and first name. Use string objects and methods from the
 	string header file. A sample run could look like this:
 		Enter your first name: Flip
 		Enter your last name: Fleming
-		Here＊s the information in a single string: Fleming, Flip
+		Here"s the information in a single string: Fleming, Flip
 	5. The CandyBar structure contains three members. The first member holds the brand
 	name of a candy bar. The second member holds the weight (which may have a fractional
 	part) of the candy bar, and the third member holds the number of calories (an integer
 	value) in the candy bar. Write a program that declares such a structure and creates a
-	CandyBar variable called snack, initializing its members to ※Mocha Munch§, 2.3, and
+	CandyBar variable called snack, initializing its members to "Mocha Munch", 2.3, and
 	350, respectively. The initialization should be part of the declaration for snack. Finally,
 	the program should display the contents of the snack variable.
 	6. The CandyBar structure contains three members, as described in Programming Exercise
@@ -256,7 +256,7 @@ NO Programming Exercises
 		a. display by name b. display by title
 		c. display by bopname d. display by preference
 		q. quit
-	Note that ※display by preference§ does not mean display the preference member; it
+	Note that "display by preference" does not mean display the preference member; it
 	means display the member corresponding to the preference number. For instance, if
 	preference is 1, choice d would display the programmer's job title. A sample run may
 	look something like the following:
@@ -303,7 +303,7 @@ NO Programming Exercises
 	should then report the number of words that began with vowels, the number that began
 	with consonants, and the number that fit neither of those categories. One approach is to
 	use isalpha() to discriminate between words beginning with letters and those that
-	don＊t and then use an if or switch statement to further identify those passing the
+	don"t and then use an if or switch statement to further identify those passing the
 	isalpha() test that begin with vowels. A sample run might look like this:
 		Enter words (q to quit):
 		The 12 awesome oxen ambled
@@ -334,7 +334,7 @@ NO Programming Exercises
 	mean of the numbers. The function should return the answer to main(), which
 	should report the result. The harmonic mean of the numbers is the inverse of the average
 	of the inverses and can be calculated as follows:
-	harmonic mean = 2.0 ℅ x ℅ y / (x + y)
+	harmonic mean = 2.0 * x * y / (x + y)
 	2. Write a program that asks the user to enter up to 10 golf scores, which are to be stored
 	in an array. You should provide a means for the user to terminate input prior to entering
 	10 scores. The program should display all the scores on one line and report the average
@@ -356,17 +356,17 @@ NO Programming Exercises
 		c. Write a simple program that uses these two functions.
 	4. Many state lotteries use a variation of the simple lottery portrayed by Listing 7.4. In
 	these variations you choose several numbers from one set and call them the field numbers.
-	For example, you might select 5 numbers from the field of 1每47). You also pick a
+	For example, you might select 5 numbers from the field of 1-47). You also pick a
 	single number (called a mega number or a power ball, etc.) from a second range, such as
-	1每27. To win the grand prize, you have to guess all the picks correctly. The chance of
+	1-27. To win the grand prize, you have to guess all the picks correctly. The chance of
 	winning is the product of the probability of picking all the field numbers times the probability
 	of picking the mega number. For instance, the probability of winning the example
 	described here is the product of the probability of picking 5 out of 47 correctly times the
 	probability of picking 1 out of 27 correctly. Modify Listing 7.4 to calculate the probability
 	of winning this kind of lottery.
 	5. Define a recursive function that takes an integer argument and returns the factorial of
-	that argument. Recall that 3 factorial, written 3!, equals 3 ℅ 2!, and so on, with 0!
-	defined as 1. In general, if n is greater than zero, n! = n * (n 每 1)!. Test your function in a
+	that argument. Recall that 3 factorial, written 3!, equals 3 x 2!, and so on, with 0!
+	defined as 1. In general, if n is greater than zero, n! = n * (n - 1)!. Test your function in a
 	program that uses a loop to allow the user to enter various values for which the program
 	reports the factorial.
 	6. Write a program that uses the following functions:
@@ -408,7 +408,7 @@ NO Programming Exercises
 		// and displays its contents
 		void display1(student st);
 		// display2() takes the address of student structure as an
-		// argument and displays the structure＊s contents
+		// argument and displays the structure's contents
 		void display2(const student * ps);
 		// display3() takes the address of the first element of an array
 		// of student structures and the number of array elements as
@@ -416,10 +416,10 @@ NO Programming Exercises
 		void display3(const student pa[], int n);
 		int main()
 		{
-			cout << ※Enter class size: ※;
+			cout << "Enter class size: ";
 			int class_size;
 			cin >> class_size;
-			while (cin.get() != ＆\n＊)
+			while (cin.get() != '\n')
 			continue;
 			student * ptr_stu = new student[class_size];
 			int entered = getinfo(ptr_stu, class_size);
@@ -430,7 +430,7 @@ NO Programming Exercises
 			}
 			display3(ptr_stu, entered);
 			delete [] ptr_stu;
-			cout << ※Done\n§;
+			cout << "Done\n";
 			return 0;
 		}
 	9. Design a function calculate() that takes two type double values and a pointer to a
@@ -451,7 +451,7 @@ NO Programming Exercises
 	pair, use calculate() to invoke add() and at least one other function. If you are feeling
 	adventurous, try creating an array of pointers to add()-style functions and use a loop to
 	successively apply calculate() to a series of functions by using these pointers. Hint:
-	Here＊s how to declare such an array of three pointers:
+	Here's how to declare such an array of three pointers:
 		double (*pf[3])(double, double);
 	You can initialize such an array by using the usual array initialization syntax and function
 	names as addresses.
@@ -472,7 +472,7 @@ NO Programming Exercises
 	value) in the candy bar. Write a program that uses a function that takes as arguments a
 	reference to CandyBar, a pointer-to-char, a double, and an int and uses the last three
 	values to set the corresponding members of the structure. The last three arguments
-	should have default values of ※Millennium Munch,§ 2.85, and 350. Also, the program
+	should have default values of "Millennium Munch," 2.85, and 350. Also, the program
 	should use a function that takes a reference to a CandyBar as an argument and displays
 	the contents of the structure. Use const where appropriate.
 	3. Write a function that takes a reference to a string object as its parameter and that converts
@@ -491,13 +491,13 @@ NO Programming Exercises
 		#include <cstring> // for strlen(), strcpy()
 		struct stringy {
 			char * str; // points to a string
-			int ct; // length of string (not counting ＆\0＊)
+			int ct; // length of string (not counting '\0')
 		};
 		// prototypes for set(), show(), and show() go here
 		int main()
 		{
 			stringy beany;
-			char testing[] = ※Reality isn＊t what it used to be.§;
+			char testing[] = "Reality isn't what it used to be.";
 			set(beany, testing); // first argument is a reference,
 			// allocates space to hold copy of testing,
 			// sets str member of beany to point to the
@@ -505,11 +505,11 @@ NO Programming Exercises
 			// and sets ct member of beany
 			show(beany); // prints member string once
 			show(beany, 2); // prints member string twice
-			testing[0] = ＆D＊;
-			testing[1] = ＆u＊;
+			testing[0] = 'D';
+			testing[1] = 'u';
 			show(testing); // prints testing string once
 			show(testing, 3); // prints testing string thrice
-			show(※Done!§);
+			show("Done!");
 			return 0;
 		}
 	Complete this skeleton by providing the described functions and prototypes. Note that
@@ -561,22 +561,22 @@ NO Programming Exercises
 	Note that setgolf() is overloaded. Using the first version of setgolf() would look like
 	this:
 		golf ann;
-		setgolf(ann, ※Ann Birdfree§, 24);
-	The function call provides the information that＊s stored in the ann structure. Using the
+		setgolf(ann, "Ann Birdfree", 24);
+	The function call provides the information that"s stored in the ann structure. Using the
 	second version of setgolf() would look like this:
 		golf andy;
 		setgolf(andy);
 	The function would prompt the user to enter the name and handicap and store them in
-	the andy structure. This function could (but doesn＊t need to) use the first version internally.
+	the andy structure. This function could (but doesn"t need to) use the first version internally.
 	Put together a multifile program based on this header. One file, named golf.cpp, should
 	provide suitable function definitions to match the prototypes in the header file. A second
 	file should contain main() and demonstrate all the features of the prototyped functions.
 	For example, a loop should solicit input for an array of golf structures and terminate
-	when the array is full or the user enters an empty string for the golfer＊s name. The
+	when the array is full or the user enters an empty string for the golfer's name. The
 	main() function should use only the prototyped functions to access the golf structures.
 	2. Redo Listing 9.8, replacing the character array with a string object. The program
 	should no longer have to check whether the input string fits, and it can compare the
-	input string to ※§ to check for an empty line.
+	input string to "" to check for an empty line.
 	3. Begin with the following structure declaration:
 		struct chaff
 		{
@@ -626,11 +626,11 @@ NO Programming Exercises
 		class Person {
 			private:
 			static const LIMIT = 25;
-			string lname; // Person＊s last name
-			char fname[LIMIT]; // Person＊s first name
+			string lname; // Person's last name
+			char fname[LIMIT]; // Person's first name
 			public:
-			Person() {lname = ※§; fname[0] = ＆\0＊; } // #1
-			Person(const string & ln, const char * fn = ※Heyyou§); // #2
+			Person() {lname = ""; fname[0] = '\0'; } // #1
+			Person(const string & ln, const char * fn = "Heyyou"); // #2
 			// the following methods display lname and fname
 			void Show() const; // firstname lastname format
 			void FormalShow() const; // lastname, firstname format
@@ -638,10 +638,10 @@ NO Programming Exercises
 	Write a program that completes the implementation by providing code for the undefined
 	methods. The program in which you use the class should also use the three possible
 	constructor calls (no arguments, one argument, and two arguments) and the two display
-	methods. Here＊s an example that uses the constructors and methods:
+	methods. Here's an example that uses the constructors and methods:
 		Person one; // use default constructor
-		Person two(※Smythecraft§); // use #2 with one default argument
-		Person three(※Dimwiddy§, ※Sam§); // use #2, no defaults
+		Person two("Smythecraft"); // use #2 with one default argument
+		Person three("Dimwiddy", "Sam"); // use #2, no defaults
 		one.Show();
 		cout << endl;
 		one.FormalShow();
@@ -667,7 +667,7 @@ NO Programming Exercises
 	be added to a running total, and the running total should be reported. Note: You should
 	be able to use the Stack class unaltered; just change the typedef declaration so that
 	Item is type customer instead of unsigned long.
-	6. Here＊s a class declaration:
+	6. Here's a class declaration:
 		class Move
 		{
 			private:
@@ -689,9 +689,9 @@ NO Programming Exercises
 	A plorg has a contentment index (CI), which is an integer.
 	Operations
 		A new plorg starts out with a name and a CI of 50.
-		A plorg＊s CI can change.
+		A plorg's CI can change.
 		A plorg can report its name and CI.
-	The default plorg has the name ※Plorga§.
+	The default plorg has the name "Plorga".
 	Write a Plorg class declaration (including data members and member function prototypes)
 	that represents a plorg. Write the function definitions for the member functions.
 	Write a short program that demonstrates all the features of the Plorg class.
@@ -702,13 +702,13 @@ NO Programming Exercises
 		 You can determine whether the list is empty.
 		 You can determine whether the list is full.
 		 You can visit each item in the list and perform some action on it.
-	As you can see, this list really is simple; it doesn＊t allow insertion or deletion, for
+	As you can see, this list really is simple; it doesn't allow insertion or deletion, for
 	example.
 	Design a List class to represent this abstract type. You should provide a list.h header
 	file with the class declaration and a list.cpp file with the class method implementations.
 	You should also create a short program that utilizes your design.
 	The main reason for keeping the list specification simple is to simplify this programming
-	exercise. You can implement the list as an array or, if you＊re familiar with the data type,
+	exercise. You can implement the list as an array or, if you're familiar with the data type,
 	as a linked list. But the public interface should not depend on your choice. That is, the
 	public interface should not have array indices, pointers to nodes, and so on. It should be
 	expressed in the general concepts of creating a list, adding an item to the list, and so on.
@@ -767,31 +767,31 @@ NO Programming Exercises
 	imaginary number is this: (3.0, 4.0). Here 3.0 is the real part and 4.0 is the imaginary
 	part. Suppose a = (A,Bi) and c = (C,Di). Here are some complex operations:
 		 Addition: a + c = (A + C, (B + D)i)
-		 Subtraction: a 每 c = (A 每 C, (B 每 D)i)
-		 Multiplication: a ℅ c = (A ℅ C 每 B ℅ D, (A ℅ D + B ℅ C)i)
-		 Multiplication: (x a real number): x ℅ c = (x ℅ C, x ℅ Di)
-		 Conjugation: ~a = (A, 每 Bi)
+		 Subtraction: a - c = (A - C, (B - D)i)
+		 Multiplication: a x c = (A x C - B x D, (A x D + B x C)i)
+		 Multiplication: (x a real number): x x c = (x x C, x x Di)
+		 Conjugation: ~a = (A, - Bi)
 	Define a complex class so that the following program can use it with correct results:
 		#include <iostream>
 		using namespace std;
-		#include ※complex0.h§ // to avoid confusion with complex.h
+		#include "complex0.h" // to avoid confusion with complex.h
 		int main()
 		{
 			complex a(3.0, 4.0); // initialize to (3,4i)
 			complex c;
-			cout << ※Enter a complex number (q to quit):\n§;
+			cout << "Enter a complex number (q to quit):\n";
 			while (cin >> c)
 			{
-				cout << ※c is ※ << c << ＆\n＊;
-				cout << ※complex conjugate is ※ << ~c << ＆\n＊;
-				cout << ※a is ※ << a << ＆\n§;
-				cout << ※a + c is ※ << a + c << ＆\n＊;
-				cout << ※a - c is ※ << a - c << ＆\n＊;
-				cout << ※a * c is ※ << a * c << ＆\n＊;
-				cout << ※2 * c is ※ << 2 * c << ＆\n＊;
-				cout << ※Enter a complex number (q to quit):\n§;
+				cout << "c is " << c << '\n';
+				cout << "complex conjugate is " << ~c << '\n';
+				cout << "a is " << a << '\n";
+				cout << "a + c is " << a + c << '\n';
+				cout << "a - c is " << a - c << '\n';
+				cout << "a * c is " << a * c << '\n';
+				cout << "2 * c is " << 2 * c << '\n';
+				cout << "Enter a complex number (q to quit):\n";
 			}
-			cout << ※Done!\n§;
+			cout << "Done!\n";
 			return 0;
 		}
 	Note that you have to overload the << and >> operators. Many systems already have
@@ -834,7 +834,7 @@ NO Programming Exercises
 	doing the following:
 		a. Overload the + operator to allow you to join two strings into one.
 		b. Provide a stringlow() member function that converts all alphabetic characters in
-		a string to lowercase. (Don＊t forget the cctype family of character functions.)
+		a string to lowercase. (Don't forget the cctype family of character functions.)
 		c. Provide a stringup() member function that converts all alphabetic characters in a
 		string to uppercase.
 		d. Provide a member function that takes a char argument and returns the number of
@@ -843,24 +843,24 @@ NO Programming Exercises
 		// pe12_2.cpp
 		#include <iostream>
 		using namespace std;
-		#include ※string2.h§
+		#include "string2.h"
 		int main()
 		{
-			String s1(※ and I am a C++ student.§);
-			String s2 = ※Please enter your name: ※;
+			String s1(" and I am a C++ student.");
+			String s2 = "Please enter your name: ";
 			String s3;
 			cout << s2; // overloaded << operator
 			cin >> s3; // overloaded >> operator
-			s2 = ※My name is ※ + s3; // overloaded =, + operators
-			cout << s2 << ※.\n§;
+			s2 = "My name is " + s3; // overloaded =, + operators
+			cout << s2 << ".\n";
 			s2 = s2 + s1;
 			s2.stringup(); // converts string to uppercase
-			cout << ※The string\n§ << s2 << ※\ncontains ※ << s2.has(＆A＊)
-			<< ※ ＆A＊ characters in it.\n§;
-			s1 = ※red§; // String(const char *),
+			cout << "The string\n" << s2 << "\ncontains " << s2.has("A")
+			<< " "A" characters in it.\n";
+			s1 = "red"; // String(const char *),
 			// then String & operator=(const String&)
-			String rgb[3] = { String(s1), String(※green§), String(※blue§)};
-			cout << ※Enter the name of a primary color for mixing light: ※;
+			String rgb[3] = { String(s1), String("green"), String("blue")};
+			cout << "Enter the name of a primary color for mixing light: ";
 			String ans;
 			bool success = false;
 			while (cin >> ans)
@@ -870,7 +870,7 @@ NO Programming Exercises
 				{
 					if (ans == rgb[i]) // overloaded == operator
 					{
-						cout << ※That＊s right!\n§;
+						cout << "That"s right!\n";
 						success = true;
 						break;
 					}
@@ -878,9 +878,9 @@ NO Programming Exercises
 				if (success)
 				break;
 				else
-				cout << ※Try again!\n§;
+				cout << "Try again!\n";
 			}
-			cout << ※Bye\n§;
+			cout << "Bye\n";
 			return 0;
 		}
 	Your output should look like this sample run:
@@ -888,11 +888,11 @@ NO Programming Exercises
 		My name is Fretta Farbo.
 		The string
 		MY NAME IS FRETTA FARBO AND I AM A C++ STUDENT.
-		contains 6 ＆A＊ characters in it.
+		contains 6 "A" characters in it.
 		Enter the name of a primary color for mixing light: yellow
 		Try again!
 		BLUE
-		That＊s right!
+		That"s right!
 		Bye
 	3. Rewrite the Stock class, as described in Listings 10.7 and 10.8 in Chapter 10, so that it
 	uses dynamically allocated memory directly instead of using string class objects to hold
@@ -923,7 +923,7 @@ NO Programming Exercises
 	As the private members suggest, this class uses a dynamically allocated array to hold the
 	stack items. Rewrite the methods to fit this new representation and write a program that
 	demonstrates all the methods, including the copy constructor and assignment operator.
-	5. The Bank of Heather has performed a study showing that ATM customers won＊t wait
+	5. The Bank of Heather has performed a study showing that ATM customers won"t wait
 	more than one minute in line. Using the simulation from Listing 12.10, find a value for
 	number of customers per hour that leads to an average wait time of one minute. (Use at
 	least a 100-hour trial period.)
@@ -932,7 +932,7 @@ NO Programming Exercises
 	will join the first queue if it has fewer people in it than the second queue and that the
 	customer will join the second queue otherwise. Again, find a value for number of customers
 	per hour that leads to an average wait time of one minute. (Note: This is a nonlinear
-	problem in that doubling the number of ATMs doesn＊t double the number of
+	problem in that doubling the number of ATMs doesn"t double the number of
 	customers who can be handled per hour with a one-minute wait maximum.)
 
 # Chapter 13 CLASS INHERITANCE
@@ -959,25 +959,25 @@ NO Programming Exercises
 	remove it from the definition. Test your product with the following program:
 		#include <iostream>
 		using namespace std;
-		#include ※classic.h§ // which will contain #include cd.h
+		#include "classic.h" // which will contain #include cd.h
 		void Bravo(const Cd & disk);
 		int main()
 		{
-			Cd c1(※Beatles§, ※Capitol§, 14, 35.5);
-			Classic c2 = Classic(※Piano Sonata in B flat, Fantasia in C§,
-			※Alfred Brendel§, ※Philips§, 2, 57.17);
+			Cd c1("Beatles", "Capitol", 14, 35.5);
+			Classic c2 = Classic("Piano Sonata in B flat, Fantasia in C",
+			"Alfred Brendel", "Philips", 2, 57.17);
 			Cd *pcd = &c1;
-			cout << ※Using object directly:\n§;
+			cout << "Using object directly:\n";
 			c1.Report(); // use Cd method
 			c2.Report(); // use Classic method
-			cout << ※Using type cd * pointer to objects:\n§;
+			cout << "Using type cd * pointer to objects:\n";
 			pcd->Report(); // use Cd method for cd object
 			pcd = &c2;
 			pcd->Report(); // use Classic method for classic object
-			cout << ※Calling a function with a Cd reference argument:\n§;
+			cout << "Calling a function with a Cd reference argument:\n";
 			Bravo(c1);
 			Bravo(c2);
-			cout << ※Testing assignment: ※;
+			cout << "Testing assignment: ";
 			Classic copy;
 			copy = c2;
 			copy.Report()
@@ -1005,7 +1005,7 @@ NO Programming Exercises
 			char style[20]; // i.e., tawny, ruby, vintage
 			int bottles;
 			public:
-			Port(const char * br = ※none§, const char * st = ※none§, int b = 0);
+			Port(const char * br = "none", const char * st = "none", int b = 0);
 			Port(const Port & p); // copy constructor
 			virtual ~Port() { delete [] brand; }
 			Port & operator=(const Port & p);
@@ -1025,11 +1025,11 @@ NO Programming Exercises
 	Gallo, tawny, 20
 	The Portmaster completed the method definitions for the Port class and then derived
 	the VintagePort class as follows before being relieved of his position for accidentally
-	routing a bottle of ＆45 Cockburn to someone preparing an experimental barbecue sauce:
-		class VintagePort : public Port // style necessarily = ※vintage§
+	routing a bottle of "45 Cockburn to someone preparing an experimental barbecue sauce:
+		class VintagePort : public Port // style necessarily = "vintage"
 		{
 			private:
-			char * nickname; // i.e., ※The Noble§ or ※Old Velvet§, etc.
+			char * nickname; // i.e., "The Noble" or "Old Velvet", etc.
 			int year; // vintage year
 			public:
 			VintagePort();
@@ -1077,19 +1077,19 @@ NO Programming Exercises
 	The program should prompt the user to enter a wine name, the number of elements of
 	the array, and the year and bottle count information for each array element. The program
 	should use this data to construct a Wine object and then display the information stored
-	in the object. For guidance, here＊s a sample test program:
+	in the object. For guidance, here"s a sample test program:
 		// pe14-1.cpp -- using Wine class with containment
 		#include <iostream>
-		#include ※winec.h§
+		#include "winec.h"
 		int main ( void )
 		{
 			using std::cin;
 			using std::cout;
 			using std::endl;
-			cout << ※Enter name of wine: ※;
+			cout << "Enter name of wine: ";
 			char lab[50];
 			cin.getline(lab, 50);
-			cout << ※Enter number of years: ※;
+			cout << "Enter number of years: ";
 			int yrs;
 			cin >> yrs;
 			Wine holding(lab, yrs); // store label, years, give arrays yrs elements
@@ -1099,14 +1099,14 @@ NO Programming Exercises
 			int y[YRS] = {1993, 1995, 1998};
 			int b[YRS] = { 48, 60, 72};
 			// create new object, initialize using data in arrays y and b
-			Wine more(※Gushing Grape Red§,YRS, y, b);
+			Wine more("Gushing Grape Red",YRS, y, b);
 			more.Show();
-			cout << ※Total bottles for ※ << more.Label() // use Label() method
-			<< ※: ※ << more.sum() << endl; // use sum() method
-			cout << ※Bye\n§;
+			cout << "Total bottles for " << more.Label() // use Label() method
+			<< ": " << more.sum() << endl; // use sum() method
+			cout << "Bye\n";
 			return 0;
 		}
-	And here＊s some sample output:
+	And here"s some sample output:
 		Enter name of wine: Gully Wash
 		Enter number of years: 4
 		Enter Gully Wash data for 4 year(s):
@@ -1142,15 +1142,15 @@ NO Programming Exercises
 	4. A Person class holds the first name and the last name of a person. In addition to its constructors,
 	it has a Show() method that displays both names. A Gunslinger class derives
 	virtually from the Person class. It has a Draw() member that returns a type double value
-	representing a gunslinger＊s draw time. The class also has an int member representing
-	the number of notches on a gunslinger＊s gun. Finally, it has a Show() function that displays
+	representing a gunslinger"s draw time. The class also has an int member representing
+	the number of notches on a gunslinger"s gun. Finally, it has a Show() function that displays
 	all this information.
 	A PokerPlayer class derives virtually from the Person class. It has a Draw() member
 	that returns a random number in the range 1 through 52, representing a card value.
 	(Optionally, you could define a Card class with suit and face value members and use a
 	Card return value for Draw().) The PokerPlayer class uses the Person show() function.
 	The BadDude class derives publicly from the Gunslinger and PokerPlayer classes. It has
-	a Gdraw() member that returns a bad dude＊s draw time and a Cdraw() member that
+	a Gdraw() member that returns a bad dude"s draw time and a Cdraw() member that
 	returns the next card drawn. It has an appropriate Show() function. Define all these
 	classes and methods, along with any other necessary methods (such as methods for setting
 	object values) and test them in a simple program similar to that in Listing 14.12.
@@ -1161,8 +1161,8 @@ NO Programming Exercises
 		class abstr_emp
 		{
 			private:
-			std::string fname; // abstr_emp＊s first name
-			std::string lname; // abstr_emp＊s last name
+			std::string fname; // abstr_emp"s first name
+			std::string lname; // abstr_emp"s last name
 			std::string job;
 			public:
 			abstr_emp();
@@ -1240,25 +1240,25 @@ NO Programming Exercises
 		// useemp1.cpp -- using the abstr_emp classes
 		#include <iostream>
 		using namespace std;
-		#include ※emp.h§
+		#include "emp.h"
 		int main(void)
 		{
-			employee em(※Trip§, ※Harris§, ※Thumper§);
+			employee em("Trip", "Harris", "Thumper");
 			cout << em << endl;
 			em.ShowAll();
-			manager ma(※Amorphia§, ※Spindragon§, ※Nuancer§, 5);
+			manager ma("Amorphia", "Spindragon", "Nuancer", 5);
 			cout << ma << endl;
 			ma.ShowAll();
-			fink fi(※Matt§, ※Oggs§, ※Oiler§, ※Juno Barr§);
+			fink fi("Matt", "Oggs", "Oiler", "Juno Barr");
 			cout << fi << endl;
 			fi.ShowAll();
-			highfink hf(ma, ※Curly Kew§); // recruitment?
+			highfink hf(ma, "Curly Kew"); // recruitment?
 			hf.ShowAll();
-			cout << ※Press a key for next phase:\n§;
+			cout << "Press a key for next phase:\n";
 			cin.get();
 			highfink hf2;
 			hf2.SetAll();
-			cout << ※Using an abstr_emp * pointer:\n§;
+			cout << "Using an abstr_emp * pointer:\n";
 			abstr_emp * tri[4] = {&em, &fi, &hf, &hf2};
 			for (int i = 0; i < 4; i++)
 			tri[i]->ShowAll();
@@ -1300,17 +1300,17 @@ NO Programming Exercises
 
 # Chapter 16 THE string CLASS AND THE STANDARD TEMPLATE LIBRARY
 
-	1. A palindrome is a string that is the same backward as it is forward. For example, ※tot§
-	and ※otto§ are rather short palindromes. Write a program that lets a user enter a string
+	1. A palindrome is a string that is the same backward as it is forward. For example, "tot"
+	and "otto" are rather short palindromes. Write a program that lets a user enter a string
 	and that passes to a bool function a reference to the string. The function should return
-	true if the string is a palindrome and false otherwise. At this point, don＊t worry about
+	true if the string is a palindrome and false otherwise. At this point, don"t worry about
 	complications such as capitalization, spaces, and punctuation. That is, this simple version
-	should reject ※Otto§ and ※Madam, I＊m Adam.§ Feel free to scan the list of string
+	should reject "Otto" and "Madam, I"m Adam." Feel free to scan the list of string
 	methods in Appendix F for methods to simplify the task.
 	2. Do the same problem as given in Programming Exercise 1, but do worry about complications
-	such as capitalization, spaces, and punctuation. That is, ※Madam, I＊m Adam§
+	such as capitalization, spaces, and punctuation. That is, "Madam, I"m Adam"
 	should test as a palindrome. For example, the testing function could reduce the string to
-	※madamimadam§ and then test whether the reverse is the same. Don＊t forget the useful
+	"madamimadam" and then test whether the reverse is the same. Don"t forget the useful
 	cctype library. You might find an STL function or two useful although not necessary.
 	3. Redo Listing 16.3 so that it gets it words from a file. One approach is to use a
 	vector<string> object instead of an array of string. Then you can use push_back() to
@@ -1342,16 +1342,16 @@ NO Programming Exercises
 		vector<int> winners;
 		winners = Lotto(51,6);
 	This would assign to winners a vector that contains six numbers selected randomly from
-	the range 1 through 51. Note that simply using rand() doesn＊t quite do the job because
+	the range 1 through 51. Note that simply using rand() doesn"t quite do the job because
 	it may produce duplicate values. Suggestion: Have the function create a vector that contains
 	all the possible values, use random_shuffle(), and then use the beginning of the
 	shuffled vector to obtain the values. Also write a short program that lets you test the
 	function.
 	8. Mat and Pat want to invite their friends to a party. They ask you to write a program that
 	does the following:
-		 Allows Mat to enter a list of his friends＊ names. The names are stored in a container
+		 Allows Mat to enter a list of his friends" names. The names are stored in a container
 		and then displayed in sorted order.
-		 Allows Pat to enter a list of her friends＊ names. The names are stored in a second
+		 Allows Pat to enter a list of her friends" names. The names are stored in a second
 		container and then displayed in sorted order.
 		 Creates a third container that merges the two lists, eliminates duplicates, and displays
 		the contents of this container.
@@ -1382,15 +1382,15 @@ NO Programming Exercises
 	5. Mat and Pat want to invite their friends to a party, much as they did in Programming
 	Exercise 8 in Chapter 16, except now they want a program that uses files. They have
 	asked you to write a program that does the following:
-		 Reads a list of Mat＊s friends＊ names from a text file called mat.dat, which lists one
+		 Reads a list of Mat"s friends" names from a text file called mat.dat, which lists one
 		friend per line. The names are stored in a container and then displayed in sorted
 		order.
-		 Reads a list of Pat＊s friends＊ names from a text file called pat.dat, which lists one
+		 Reads a list of Pat"s friends" names from a text file called pat.dat, which lists one
 		friend per line. The names are stored in a container and then displayed in sorted
 		order.
 		 Merges the two lists, eliminating duplicates, and stores the result in the file
 	matnpat.dat, one friend per line.
-	6. Consider the class definitions of Programming Exercise 5 in Chapter 14. If you haven＊t
+	6. Consider the class definitions of Programming Exercise 5 in Chapter 14. If you haven"t
 	yet done that exercise, do so now. Then do the following:
 	Write a program that uses standard C++ I/O and file I/O in conjunction with data of
 	types employee, manager, fink, and highfink, as defined in Programming Exercise 5 in
@@ -1407,7 +1407,7 @@ NO Programming Exercises
 		employee * pc[MAX];
 	For keyboard entry, the program should use a menu to offer the user the choice of which
 	type of object to create. The menu should use a switch to use new to create an object of
-	the desired type and to assign the object＊s address to a pointer in the pc array. Then that
+	the desired type and to assign the object"s address to a pointer in the pc array. Then that
 	object can use the virtual setall() function to elicit the appropriate data from the user:
 		pc[i]->setall(); // invokes function corresponding to type of object
 	To save the data to a file, devise a virtual writeall() function for that purpose:
