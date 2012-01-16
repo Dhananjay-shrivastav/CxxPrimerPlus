@@ -161,15 +161,15 @@ NO Programming Exercises
 	when the user enters 0.
 	3. Daphne invests $100 at 10% simple interest. That is, every year, the investment earns
 	10% of the original investment, or $10 each and every year:
-	interest = 0.10 ¡Á original balance
+	interest = 0.10 x original balance
 	At the same time, Cleo invests $100 at 5% compound interest. That is, interest is 5% of
 	the current balance, including previous additions of interest:
-	interest = 0.05 ¡Á current balance
+	interest = 0.05 x current balance
 	Cleo earns 5% of $100 the first year, giving her $105. The next year she earns 5% of
 	$105, or $5.25, and so on. Write a program that finds how many years it takes for the
-	value of Cleo¡¯s investment to exceed the value of Daphne¡¯s investment and then displays
+	value of Cleo's investment to exceed the value of Daphne's investment and then displays
 	the value of both investments at that time.
-	4. You sell the book C++ for Fools. Write a program that has you enter a year¡¯s worth of
+	4. You sell the book C++ for Fools. Write a program that has you enter a year's worth of
 	monthly sales (in terms of number of books, not of money). The program should use a
 	loop to prompt you by month, using an array of char * (or an array of string objects, if
 	you prefer) initialized to the month strings and storing the input data in an array of int.
@@ -224,7 +224,7 @@ NO Programming Exercises
 
 	1. Write a program that reads keyboard input to the @ symbol and that echoes the input
 	except for digits, converting each uppercase character to lowercase, and vice versa.
-	(Don¡¯t forget the cctype family.)
+	(Don't forget the cctype family.)
 	2. Write a program that reads up to 10 donation values into an array of double. The program
 	should terminate input on non-numeric input. It should report the average of the
 	numbers and also report how many numbers in the array are larger than the average.
@@ -232,7 +232,7 @@ NO Programming Exercises
 	four choices, each labeled with a letter. If the user responds with a letter other than
 	one of the four valid choices, the program should prompt the user to enter a valid
 	response until the user complies. Then the program should use a switch to select a simple
-	action based on the user¡¯s selection. A program run could look something like this:
+	action based on the user's selection. A program run could look something like this:
 		Please enter one of the following choices:
 		c) carnivore p) pianist
 		t) tree g) game
@@ -242,7 +242,7 @@ NO Programming Exercises
 		A maple is a tree.
 	4. When you join the Benevolent Order of Programmers, you can be known at BOP meetings
 	by your real name, your job title, or your secret BOP name. Write a program that
-	can list members by real name, by job title, by secret name, or by a member¡¯s preference.
+	can list members by real name, by job title, by secret name, or by a member's preference.
 	Base the program on the following structure:
 		// Benevolent Order of Programmers name structure
 		struct bop {
@@ -258,7 +258,7 @@ NO Programming Exercises
 		q. quit
 	Note that ¡°display by preference¡± does not mean display the preference member; it
 	means display the member corresponding to the preference number. For instance, if
-	preference is 1, choice d would display the programmer¡¯s job title. A sample run may
+	preference is 1, choice d would display the programmer's job title. A sample run may
 	look something like the following:
 		Benevolent Order of Programmers Report
 		a. display by name b. display by title
@@ -284,8 +284,8 @@ NO Programming Exercises
 		next 10,000 tvarps: 10% tax
 		next 20,000 tvarps: 15% tax
 		tvarps after 35,000: 20% tax
-	For example, someone earning 38,000 tvarps would owe 5,000 ¡Á 0.00 + 10,000 ¡Á 0.10
-	+ 20,000 ¡Á 0.15 + 3,000 ¡Á 0.20, or 4,600 tvarps. Write a program that uses a loop to
+	For example, someone earning 38,000 tvarps would owe 5,000 x 0.00 + 10,000 x 0.10
+	+ 20,000 x 0.15 + 3,000 x 0.20, or 4,600 tvarps. Write a program that uses a loop to
 	solicit incomes and to report tax owed. The loop should terminate when the user enters
 	a negative number or nonnumeric input.
 	6. Put together a program that keeps track of monetary contributions to the Society for the
@@ -298,7 +298,7 @@ NO Programming Exercises
 	who contributed $10,000 or more. This list should be headed by the label Grand
 	Patrons. After that, the program should list the remaining donors. That list should be
 	headed Patrons. If there are no donors in one of the categories, the program should print
-	the word ¡°none.¡± Aside from displaying two categories, the program need do no sorting.
+	the word "none." Aside from displaying two categories, the program need do no sorting.
 	7. Write a program that reads input a word at a time until a lone q is entered. The program
 	should then report the number of words that began with vowels, the number that began
 	with consonants, and the number that fit neither of those categories. One approach is to
@@ -315,7 +315,7 @@ NO Programming Exercises
 	file, and reports the number of characters in the file.
 	9. Do Programming Exercise 6, but modify it to get information from a file. The first item
 	in the file should be the number of contributors, and the rest of the file should consist of
-	pairs of lines, with the first line of each pair being a contributor¡¯s name and the second
+	pairs of lines, with the first line of each pair being a contributor's name and the second
 	line being a contribution. That is, the file should look like this:
 		4
 		Sam Stone
