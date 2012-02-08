@@ -1,5 +1,8 @@
 /*
-Do Programming Exercise 4,but use a two-dimensional array to store input for 3 years of monthly sales. Report the total sales for each individual year and for the combined years.
+Do Programming Exercise 4,but use a two-dimensional 
+array to store input for 3 years of monthly sales. 
+Report the total sales for each individual year and 
+for the combined years.
 */
 
 #include <iostream>
