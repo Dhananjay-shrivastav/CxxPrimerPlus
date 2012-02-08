@@ -29,17 +29,15 @@ int main() {
   cout << "How many cars do you wish to catalog? ";
   cin >> n;
   
-  car carInfo[n];
-
+  car * carInfo = new car [n];
+  
   
   for (int i=0; i<n; i++){
     cout << "Car #" << i+1 << ":" << endl;
     cout << "Please enter the make: ";
-    
-    //cin >> carInfo[i].name;
+    cin.get(); // drop the enter character
     getline(cin, carInfo[i].name);
-    //getline(cin, carInfo[i].name);
-    
+        
     cout << "Please enter the year made: ";
     cin >> carInfo[i].year;
     
@@ -54,5 +52,6 @@ int main() {
 	 << endl;
   }
   
+  delete [] carInfo;
   return(0);
 }
