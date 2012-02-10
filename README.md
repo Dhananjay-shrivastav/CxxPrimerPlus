@@ -3,7 +3,7 @@
 This is my implementation of the exercises in the book 'C++ Primer Plus'.
 
 
-All source codes were developed using emacs and compiled by g++ 4.1.2 in CentOS (2.6.18-128.e15PAE) or g++ 4.2.1 in Mac OS X 10.6.8.
+All source codes were developed using emacs and compiled by g++ 4.1.2 in CentOS (2.6.18-128.e15PAE), g++ 4.2.1 in Mac OS X 10.6.8 or g++ 4.6.1 in Windows 7 SP1.
 
 
 # Chapter 1 GETTING STARTED
