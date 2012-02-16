@@ -12,7 +12,6 @@ a negative number or nonnumeric input.
 */
 
 #include <iostream>
-#include <cctype>
 using namespace std;
 
 int main() {
