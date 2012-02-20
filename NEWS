@@ -1,10 +1,11 @@
-
 count source line and visualize (using R)
  o implement countLine function to count cpp source file <2012-02-18, Sat>
  o add script to get files in each folder, count source lines of each foler
    and visualize using barplot <2012-02-20, Mon>
- 
+
+   
 chapter 7
+ o implemented exercies 2 <2012-02-20, Mon>
  o implemented exercies 1 <2012-02-18, Sat>
 
 chapter 6
