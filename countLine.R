@@ -21,18 +21,18 @@ countLine <- function(sourcefile) {
 
 
 folders <- paste("chapter", c(2:17), sep="")
-allLen <- c()
-for (folder in folders) {
-    files <- list.files(folder, pattern="cpp")
+allLen <- rep(0, length(folders))
+names(allLen) <- folders
+for (i in seq_along(folders)) {
+    files <- list.files(folders[i], pattern="cpp$")
     len <- 0
-    for (i in files) {
-        file <- paste(folder, "/", i, sep="")
+    for (f in files) {
+        file <- paste(folders[i], "/", f, sep="")
         len <- len + countLine(file)
     }
-    allLen <- c(allLen, len)
+    allLen[i] <- len
 }
 
-names(allLen) <- folders
 barplot(allLen,
         main=paste("Total Lines", sum(allLen)),
         col=rainbow(length(allLen)))
