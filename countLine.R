@@ -20,7 +20,7 @@ countLine <- function(sourcefile) {
 }
 
 
-folders <- paste("chapter", c(2:17), sep="")
+folders <- paste("chapter", c(2:18), sep="")
 allLen <- rep(0, length(folders))
 names(allLen) <- folders
 for (i in seq_along(folders)) {
