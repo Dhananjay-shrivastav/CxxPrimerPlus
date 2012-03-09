@@ -15,6 +15,10 @@ countLine <- function(sourcefile) {
     ## start from the first #include line.
     start <- grep("#include", x)[1]
 
+	if (is.na(start)) {
+		## header file
+		return (length(x))
+	}
     n <- length(x) - start + 1
     return(n)
 }
@@ -24,7 +28,9 @@ folders <- paste("chapter", c(2:18), sep="")
 allLen <- rep(0, length(folders))
 names(allLen) <- folders
 for (i in seq_along(folders)) {
-    files <- list.files(folders[i], pattern="cpp$")
+    cpp_files <- list.files(folders[i], pattern=".cpp$")
+	header_files <- list.files(folders[i], pattern=".h$")
+	files <- c(cpp_files, header_files)
     len <- 0
     for (f in files) {
         file <- paste(folders[i], "/", f, sep="")
