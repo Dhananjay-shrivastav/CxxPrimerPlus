@@ -3,8 +3,11 @@ count source line and visualize (using R)
  o add script to get files in each folder, count source lines of each foler
    and visualize using barplot <2012-02-20, Mon>
  o pre-allocate allLen variable <2012-02-29, Wed>   
-
+ o update countLine.R to support counting header file. <2012-03-09, Fri>
    
+chapter 9
+ o implemented exercies 1-4 <2012-03-09, Fri>
+ 
 chapter 8
  o implemented exercies 6-7 <2012-03-01, Thu>
  o implemented exercies 3-5 <2012-02-29, Wed>
