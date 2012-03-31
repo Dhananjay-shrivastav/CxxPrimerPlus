@@ -5,6 +5,9 @@ count source line and visualize (using R)
  o pre-allocate allLen variable <2012-02-29, Wed>   
  o update countLine.R to support counting header file. <2012-03-09, Fri>
    
+chapter 10
+ o implemented exercies 1 <2012-03-31, Sat>
+
 chapter 9
  o implemented exercies 1-4 <2012-03-09, Fri>
  
