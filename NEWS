@@ -4,7 +4,10 @@ count source line and visualize (using R)
    and visualize using barplot <2012-02-20, Mon>
  o pre-allocate allLen variable <2012-02-29, Wed>   
  o update countLine.R to support counting header file. <2012-03-09, Fri>
-   
+
+chapter 11
+ o implemented exercies 1 <2012-04-26, Thu>
+
 chapter 10
  o implemented exercies 1-4 <2012-03-31, Sat>
  o implemented exercise 5-8 <2012-04-05, Thu>
