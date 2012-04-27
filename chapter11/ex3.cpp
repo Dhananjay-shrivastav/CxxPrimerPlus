@@ -10,6 +10,13 @@ of steps for N trials, where N is an integer entered by the user.
 // randwalk.cpp -- using the Vector class
 // compile with the vect.cpp file
 
+
+//
+// compile using
+//
+// g++ ex3.cpp ex2vect.cpp
+//
+
 #include <iostream>
 #include <cstdlib> // rand(), srand() prototypes
 #include <ctime> // time() prototype
