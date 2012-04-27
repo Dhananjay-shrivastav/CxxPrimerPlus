@@ -1,15 +1,12 @@
 /*
-Put together a program that keeps track of monetary contributions to the Society for the
-Preservation of Rightful Influence. It should ask the user to enter the number of contributors
-and then solicit the user to enter the name and contribution of each contributor.
-The information should be stored in a dynamically allocated array of structures. Each
-structure should have two members: a character array (or else a string object) to store
-the name and a double member to hold the amount of the contribution. After reading
-all the data, the program should display the names and amounts donated for all donors
-who contributed $10,000 or more. This list should be headed by the label Grand
-Patrons. After that, the program should list the remaining donors. That list should be
-headed Patrons. If there are no donors in one of the categories, the program should print
-the word "none." Aside from displaying two categories, the program need do no sorting.
+Rewrite the Stonewt class (Listings 11.16 and 11.17) so that it overloads all six
+relational operators.The operators should compare the pounds members and return
+a type bool value.Write a program that declares an array of six Stonewt objects and
+initializes the first three objects in the array declaration.Then it should use a loop
+to read in values used to set the remaining three array elements.Then it should
+report the smallest element, the largest element, and how many elements are greater
+or equal to 11 stone. (The simplest approach is to create a Stonewt object initialized
+to 11 stone and to compare the other objects with that object.)
  */
 
 #include <iostream>
