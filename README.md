@@ -29,7 +29,7 @@ All source codes were developed using emacs and compiled by g++ 4.1.2 in CentOS 
 
 ## Chapter 10 OBJECTS AND CLASSES <https://github.com/GuangchuangYu/CxxPrimerPlus/tree/master/chapter10>
 
-## Chapter 11 WORKING WITH CLASSES <https://github.com/GuangchuangYu/CxxPrimerPlus/tree/master/chapter11>
+## [Chapter 11 WORKING WITH CLASSES] (https://github.com/GuangchuangYu/CxxPrimerPlus/tree/master/chapter11)
 
 ## Chapter 12 CLASSES AND DYNAMIC MEMORY ALLOCATION <https://github.com/GuangchuangYu/CxxPrimerPlus/tree/master/chapter12>
 
