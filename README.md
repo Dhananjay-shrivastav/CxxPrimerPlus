@@ -25,7 +25,7 @@ All source codes were developed using emacs and compiled by g++ 4.1.2 in CentOS 
 
 ## Chapter 8 ADVENTURES IN FUNCTIONS <https://github.com/GuangchuangYu/CxxPrimerPlus/tree/master/chapter8>
 
-## Chapter 9 MEMORY MODELS AND NAMESPACES <https://github.com/GuangchuangYu/CxxPrimerPlus/tree/master/chapter9>
+## Chapter 9 MEMORY MODELS AND NAMESPACES <https://github.com/GuangchuangYu/CxxPrimerPlus/tree/master/chapter9/>
 
 ## Chapter 10 OBJECTS AND CLASSES <https://github.com/GuangchuangYu/CxxPrimerPlus/tree/master/chapter10>
 
