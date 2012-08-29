@@ -11,36 +11,36 @@ All source codes were developed using emacs and compiled by g++ 4.1.2 in CentOS 
 
 	NO Programming Exercises
 
-# Chapter 2 SETTING OUT TO C++
+# Chapter 2 SETTING OUT TO C++ <https://github.com/GuangchuangYu/CxxPrimerPlus/tree/master/chapter2>
 		
-# Chapter 3 DEALING WITH DATA	
+# Chapter 3 DEALING WITH DATA <https://github.com/GuangchuangYu/CxxPrimerPlus/tree/master/chapter3>
 
-# Chapter 4 COMPOUND TYPES
+# Chapter 4 COMPOUND TYPES <https://github.com/GuangchuangYu/CxxPrimerPlus/tree/master/chapter4>
 
-# Chapter 5 LOOPS AND RELATIONAL EXPRESSIONS
+# Chapter 5 LOOPS AND RELATIONAL EXPRESSIONS <https://github.com/GuangchuangYu/CxxPrimerPlus/tree/master/chapter5>
 
-# Chapter 6 BRANCHING STATEMENTS AND LOGICAL OPERATORS
+# Chapter 6 BRANCHING STATEMENTS AND LOGICAL OPERATORS <https://github.com/GuangchuangYu/CxxPrimerPlus/tree/master/chapter6>
 
-# Chapter 7 FUNCTIONS: C++'S PROGRAMMING MODULES
+# Chapter 7 FUNCTIONS: C++'S PROGRAMMING MODULES <https://github.com/GuangchuangYu/CxxPrimerPlus/tree/master/chapter7>
 
-# Chapter 8 ADVENTURES IN FUNCTIONS
+# Chapter 8 ADVENTURES IN FUNCTIONS <https://github.com/GuangchuangYu/CxxPrimerPlus/tree/master/chapter8>
 
-# Chapter 9 MEMORY MODELS AND NAMESPACES
+# Chapter 9 MEMORY MODELS AND NAMESPACES <https://github.com/GuangchuangYu/CxxPrimerPlus/tree/master/chapter9>
 
-# Chapter 10 OBJECTS AND CLASSES
+# Chapter 10 OBJECTS AND CLASSES <https://github.com/GuangchuangYu/CxxPrimerPlus/tree/master/chapter10>
 
-# Chapter 11 WORKING WITH CLASSES
+# Chapter 11 WORKING WITH CLASSES <https://github.com/GuangchuangYu/CxxPrimerPlus/tree/master/chapter11>
 
-# Chapter 12 CLASSES AND DYNAMIC MEMORY ALLOCATION
+# Chapter 12 CLASSES AND DYNAMIC MEMORY ALLOCATION <https://github.com/GuangchuangYu/CxxPrimerPlus/tree/master/chapter12>
 
-# Chapter 13 CLASS INHERITANCE
+# Chapter 13 CLASS INHERITANCE <https://github.com/GuangchuangYu/CxxPrimerPlus/tree/master/chapter13>
 
-# Chapter 14 REUSING CODE IN C++
+# Chapter 14 REUSING CODE IN C++ <https://github.com/GuangchuangYu/CxxPrimerPlus/tree/master/chapter14>
 
-# Chapter 15 FRIENDS, EXCEPTIONS, AND MORE
+# Chapter 15 FRIENDS, EXCEPTIONS, AND MORE <https://github.com/GuangchuangYu/CxxPrimerPlus/tree/master/chapter15>
 
-# Chapter 16 THE string CLASS AND THE STANDARD TEMPLATE LIBRARY
+# Chapter 16 THE string CLASS AND THE STANDARD TEMPLATE LIBRARY <https://github.com/GuangchuangYu/CxxPrimerPlus/tree/master/chapter16>
 
-# Chapter 17 INPUT, OUTPUT, AND FILES
+# Chapter 17 INPUT, OUTPUT, AND FILES <https://github.com/GuangchuangYu/CxxPrimerPlus/tree/master/chapter17>
 			
-# Chapter 18 Visiting with the New C++ Standard
+# Chapter 18 Visiting with the New C++ Standard <https://github.com/GuangchuangYu/CxxPrimerPlus/tree/master/chapter18>
